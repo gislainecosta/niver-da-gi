@@ -1,13 +1,17 @@
 import styled from "styled-components";
+import ImgSrc from '../../images/background.png';
 
 export const ContainerStart = styled.div`
-    padding-top: 10vh !important;
+    background-image: url(${ImgSrc});
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     height: 100vh !important;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    padding: 6vh 5vw;
+    padding: 10vh 5vw 6vh 5vw;
 `
 export const BlueText = styled.p`
     font-size: 2.25rem;
