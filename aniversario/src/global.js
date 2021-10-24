@@ -20,6 +20,7 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     * {
+        font-family: 'Merienda', cursive;
         margin: 0;
         padding: 0;
         box-sizing: border-box;
@@ -34,18 +35,16 @@ export const GlobalStyle = createGlobalStyle`
 
     html {
         font-size: 16px;
-        
-        @media(max-width: 1080px) {
-            font-size: 0.9375rem;
-        }
-
-        @media(max-width: 720px) {
-            font-size: 0.875rem;
-        }
     }
 
     button {
         cursor: pointer;
+        border: none;
+        outline: none;
+    }
+
+    button:hover {
+        transform: scale(0.92)
     }
 
     a {
