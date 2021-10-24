@@ -1,7 +1,7 @@
 import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
-    root {
+    :root {
         --background: #08111D;
         --blue-text: #40B9FF;
         --pink: #FF40E0;
@@ -11,6 +11,14 @@ export const GlobalStyle = createGlobalStyle`
         --light-grape: #BE7DFF;
     }
 
+    @font-face {
+        font-family: 'Ink Free';
+        font-style: normal;
+        font-weight: 400;
+        src: local('Ink Free'), local('InkFree'),
+        url('../public/fonts/Inkfree.ttf') format('truetype');
+    }
+
     * {
         margin: 0;
         padding: 0;
@@ -18,7 +26,9 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     body {
-        background-color: var(--background);
+        background: var(--background);
+        font-family: 'Merienda', cursive;
+        -moz-osx-font-smoothing: grayscale;
         -webkit-font-smoothing: antialiased;
     }
 
@@ -36,5 +46,10 @@ export const GlobalStyle = createGlobalStyle`
 
     button {
         cursor: pointer;
+    }
+
+    a {
+        color: inherit;
+        text-decoration: none;
     }
 `
