@@ -39,6 +39,9 @@ export const GlobalStyle = createGlobalStyle`
 
     button {
         cursor: pointer;
+    }
+
+    input, button {
         border: none;
         outline: none;
     }

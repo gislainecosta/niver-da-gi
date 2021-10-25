@@ -10,13 +10,14 @@ export const ContainerHome = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 13vh 8vw 6vh 8vw;
+    padding: 13vh 0 6vh 0;
 `
 export const Text = styled.p`
     font-weight: bold;
     font-size: 1rem;
     line-height: 2.4rem;
     color: var(--light-grape);
+    margin-left: 6vw;
 `
 export const Tittle = styled.p`
     font-weight: bold;
