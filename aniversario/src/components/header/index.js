@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { useHistory } from 'react-router-dom';
 import Navigation from '../navigation';
 import * as St from './styles';
@@ -9,6 +9,11 @@ import IconCake from '../../images/cake.png';
 export default function Header() {
     const [navigationIsOpen, setNavigationIsOpen ] = useState(false)
     let history = useHistory();
+    let url = window.location.pathname
+
+    useEffect(() => {
+        setNavigationIsOpen(false)
+    }, [url])
 
     const handleOpenMenu = () => {
         setNavigationIsOpen(!navigationIsOpen)
