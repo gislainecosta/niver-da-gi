@@ -6,11 +6,11 @@ export const ContainerHome = styled.div`
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 100vh !important;
+    height: 91vh !important;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 13vh 0 6vh 0;
+    padding: 6vh 0;
 `
 export const Text = styled.p`
     font-weight: bold;

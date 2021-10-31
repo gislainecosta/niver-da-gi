@@ -1,0 +1,63 @@
+.slick-container {
+  margin: 0 8vw;
+}
+
+.slick-tittle {
+  color: var(--pink);
+  font-size: 1rem;
+  line-height: 1.875rem;
+}
+
+.slick-track {
+  display: flex;
+  align-items: center;
+  background-color: #dab9fc1f;
+  margin: 2vh 0;
+}
+
+.dots-slick {
+  display: inline-block;
+  vertical-align: middle;
+  margin: auto;
+  padding: 0;
+  text-align: center;
+}
+
+.dots-slick li {
+  list-style: none;
+  cursor: pointer;
+  display: inline-block;
+  margin: 0 6px;
+  padding: 0;
+}
+
+.dots-slick li button {
+  border: none;
+  background: var(--grape);
+  color: transparent;
+  cursor: pointer;
+  display: block;
+  height: 15px;
+  width: 15px;
+  border-radius: 7.5px;
+}
+
+.dots-slick li.slick-active button {
+  background-color: var(--dark-pink);
+}
+
+.slick-list {
+  width: 72vw;
+  margin: 0 auto;
+}
+
+.vestment-slider img {
+  margin: auto;
+  width: 64vw;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.slick-next:before, .slick-prev:before {
+    color: var(--dark-pink);
+    font-size: 1.5rem;
+}
