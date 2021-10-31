@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const ContainerKaraoke = styled.div`
-    padding: 13vh 6vw 6vh 6vw;
+    padding: 6vh 6vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -18,7 +18,7 @@ export const Tittle = styled.p`
     font-size: 2.25rem;
     line-height: 3.25rem;
     text-align: center;
-    color: var(--dark-pink)
+    color: var(--dark-pink);
 `
 export const IconKaraoke = styled.img`
     width: 2.5rem;
@@ -28,7 +28,7 @@ export const MainText = styled.p`
     font-weight: bold;
     line-height: 1.875rem;
     text-align: justify;
-    color: var(--light-grape)
+    color: var(--light-grape);
 `
 export const ContainerAboutKaraoke = styled.section`
     display: flex;

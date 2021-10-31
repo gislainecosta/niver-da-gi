@@ -11,8 +11,8 @@ export default function Navigation() {
             <St.Navigator>
                 <LinkMenu page={"home"} image={ IconHome } tittle={"Home"}/>
                 <LinkMenu page={"karaoke"} image={ IconKaraoke } tittle={"Karaokê"} />
-                <LinkMenu page={"local"} image={ IconVestment } tittle={"Vestimenta"} />
-                <LinkMenu page={"o-que-vestir"} image={ IconLocal } tittle={"Como chegar"} />
+                <LinkMenu page={"o-que-vestir"} image={ IconVestment } tittle={"Vestimenta"} />
+                <LinkMenu page={"local"} image={ IconLocal } tittle={"Como chegar"} />
             </St.Navigator>
         </St.ContainerNavigator>
     )

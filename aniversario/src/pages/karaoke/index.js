@@ -23,7 +23,7 @@ export default function Karaoke() {
                     Conheça mais sobre a empresa que irá fornecer a estrutura para a nossa cantoria:
                 </St.AboutKaraoke>
 
-                <a href="https://www.instagram.com/janedonaria/">
+                <a href="https://www.instagram.com/janedonaria/" target="_blank">
                     <St.InstagramImg src={InstaImg} alt="Instagram" />
                 </a>
             </St.ContainerAboutKaraoke>

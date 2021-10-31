@@ -2,8 +2,6 @@ import React from 'react';
 
 import { Switch, Route, BrowserRouter } from 'react-router-dom';
 
-import { ContainerRouter } from './styles';
-
 import Header from '../components/header';
 import Home from '../pages/home';
 import Karaoke from '../pages/karaoke';
@@ -36,28 +34,26 @@ const routes = [
 ];
 
 const Routes = () => {
-    return <ContainerRouter>
-        <BrowserRouter>
-            <Switch>
-                {
-                    routes.map(
-                        (route) => {
-                            return <Route key={route.page} exact path={route.path}>
-                                {
-                                    route.path === '/' ?
-                                        route.page :
-                                        <section>
-                                            <Header />
-                                            {route.page}
-                                        </section>
-                                }
-                            </Route>;
-                        }
-                    )
-                }
-            </Switch>
-        </BrowserRouter>
-    </ContainerRouter>;
+    return <BrowserRouter>
+        <Switch>
+            {
+                routes.map(
+                    (route) => {
+                        return <Route key={route.page} exact path={route.path}>
+                            {
+                                route.path === '/' ?
+                                    route.page :
+                                    <>
+                                        <Header />
+                                        {route.page}
+                                    </>
+                            }
+                        </Route>;
+                    }
+                )
+            }
+        </Switch>
+    </BrowserRouter>
 };
 
 export default Routes;

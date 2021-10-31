@@ -1,14 +1,13 @@
 import styled from "styled-components";
 
 export const ContainerHeader = styled.div`
-    position: absolute;
+    position: sticky;
     left: 0px;
     top: 0px;
     width: 100vw;
-    height: 100vh !important;
     display: flex;
     flex-direction: column;
-    z-index: 2;
+    z-index: 9;
 `
 
 export const Header = styled.div`
@@ -21,6 +20,7 @@ export const Header = styled.div`
     color: var(--green);
     font-size: 1.875rem;
     padding: 0 6vw;
+    background-color: var(--background);
 `
 
 export const Menu = styled.img`
