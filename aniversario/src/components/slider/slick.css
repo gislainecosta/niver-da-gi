@@ -1,5 +1,5 @@
 .slick-container {
-  margin: 0 8vw;
+  margin: 0 8vw 6vh 8vw;
 }
 
 .slick-tittle {
@@ -47,7 +47,7 @@
 }
 
 .slick-list {
-  width: 72vw;
+  width: 70vw;
   margin: 0 auto;
 }
 

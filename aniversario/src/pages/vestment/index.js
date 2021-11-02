@@ -5,6 +5,13 @@ import DiCaprio from '../../images/dicaprio.png';
 import SliderFantasy from '../../components/slider';
 
 export default function Vestment() {
+    const costumes = require('../../Costumes.json');
+
+    console.log(costumes.Costumes)
+
+    const ideas = costumes.Costumes.map((costume) => <SliderFantasy tittle={costume.Name} images={costume.Images}/> )
+    
+    
     return (
         <St.ContainerVestment>
             <St.ContainerTittle>
@@ -30,7 +37,7 @@ export default function Vestment() {
 
             <St.Ideas>Ideias para você se inspirar</St.Ideas>
 
-            <SliderFantasy tittle={"Nazaré Tedesco"} />
+            {ideas}
         </St.ContainerVestment>
     )
 }

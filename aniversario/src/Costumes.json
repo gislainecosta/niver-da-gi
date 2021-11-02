@@ -1,0 +1,161 @@
+{
+    "Costumes": [
+        {
+            "Name": "Nazaré Tedesco",
+            "Images": [
+                "nazare1",
+                "nazare2",
+                "nazare3",
+                "nazare4",
+                "nazare5"
+            ]
+        },
+        {
+            "Name": "Já acabou Jéssica?",
+            "Images": [
+                "jessica1",
+                "jessica2",
+                "jessica3"
+            ]
+        },
+        {
+            "Name": "Dorime/Ameno",
+            "Images": [
+                "dorime1",
+                "dorime2",
+                "dorime3",
+                "dorime4",
+                "dorime5",
+                "dorime6",
+                "dorime7",
+                "dorime8"
+            ]
+        },
+        {
+            "Name": "Bunda da Paloma de Oliveira",
+            "Images": [
+                "paloma1",
+                "paloma2",
+                "paloma3"
+            ]
+        },
+        {
+            "Name": "Com licença senhora",
+            "Images": [
+                "licenca1",
+                "licenca2",
+                "licenca3",
+                "licenca4"
+            ]
+        },
+        {
+            "Name": "Ata",
+            "Images": [
+                "ata1",
+                "ata2",
+                "ata3"
+            ]
+        },
+        {
+            "Name": "Enzo/Valentina",
+            "Images": [
+                "enzo1",
+                "enzo2",
+                "enzo3"
+            ]
+        },
+        {
+            "Name": "Redes Sociais x Pessoalmente",
+            "Images": [
+                "face1",
+                "face2",
+                "face3",
+                "face4",
+                "face5"
+            ]
+        },
+        {
+            "Name": "Meme do Caixão",
+            "Images": [
+                "caixao1",
+                "caixao2",
+                "caixao3",
+                "caixao4",
+                "caixao5",
+                "caixao6"
+            ]
+        },
+        {
+            "Name": "Papel de Trouxa",
+            "Images": [
+                "papel1",
+                "papel2",
+                "papel3",
+                "papel4",
+                "papel5"
+            ]
+        },
+        {
+            "Name": "Memes clássicos",
+            "Images": [
+                "meme1",
+                "meme2"
+            ]
+        },
+        {
+            "Name": "Atrasado para o ENEM",
+            "Images": [
+                "enem1",
+                "enem2",
+                "enem3"
+            ]
+        },
+        {
+            "Name": "Eita Giovana!",
+            "Images": [
+                "giovana1",
+                "giovana2",
+                "giovana3",
+                "giovana4"
+            ]
+        },
+        {
+            "Name": "Travolta Confuso",
+            "Images": [
+                "confuso1",
+                "confuso2"
+            ]
+        },
+        {
+            "Name": "Ó o gááááásssss!!!",
+            "Images": [
+                "gas1",
+                "gas2",
+                "gas3"
+            ]
+        },
+        {
+            "Name": "Outros memes",
+            "Images": [
+                "fantasia1",
+                "fantasia2",
+                "fantasia3",
+                "fantasia4",
+                "fantasia5",
+                "fantasia6",
+                "fantasia7",
+                "fantasia8",
+                "fantasia9",
+                "fantasia10",
+                "fantasia11",
+                "fantasia12",
+                "fantasia13",
+                "fantasia14",
+                "fantasia15",
+                "fantasia16",
+                "fantasia17",
+                "fantasia18"
+            ]
+        }
+    ]
+}
