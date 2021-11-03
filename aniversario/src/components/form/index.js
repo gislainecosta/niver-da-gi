@@ -1,35 +1,30 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect } from 'react';
+import * as emailjs from 'emailjs-com';
 import * as St from './styles';
-import styled from "styled-components";
-
-const Button = styled.button`
-    background: ${props => props.bckColor};
-    color: ${props => props.color};
-    margin-top: 4%;
-    font-size: 0.75rem;
-    height: 2.125rem;
-    width: 24.5vw;
-    border-radius: 12px;
-    margin-left: 6%;
-`
 
 export default function Form() {
-    const [name, SetName] = useState("")
-    useEffect(() => {
-    }, [])
+    function enviarEmail(e) {
+        e.preventDefault();
+        emailjs.sendForm('service_q06x5r4', 'template_s27ntbx', e.target, 'user_beTebqYFT6uzrsYlfXw8h')
+            .then((result) => {
+                alert("Música enviada com sucesso :D")
+                e.target.reset()
+            }, (error) => {
+                alert("Por favor, tente novamente", error)
+            });
+    }
 
     return (
         <>
             <St.Tittle>Cadastre suas músicas prefeirdas</St.Tittle>
 
-            <form>
-                <St.Input placeholder="Seu nome" />
-                <St.Input placeholder="Música" />
-                <St.Input placeholder="Cantor/Banda" />
+            <form id="myform" autoComplete="off" onSubmit={enviarEmail}>
+                <St.Input required placeholder="Seu nome" name="name"/>
+                <St.Input required placeholder="Música" name="music"/>
+                <St.Input required placeholder="Cantor/Banda" name="singer"/>
 
                 <St.ContainerButtons>
-                    <Button bckColor={"var(--dark-pink)"} color={"#FFDAE7"} >É isso</Button>
-                    <Button bckColor={"var(--grape)"} color={"#EDDBFF"} >Mais uma</Button>
+                    <St.Button type="submit" value="Enviar" />
                 </St.ContainerButtons>
             </form>
         </>

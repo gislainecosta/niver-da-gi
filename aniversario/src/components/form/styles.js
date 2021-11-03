@@ -16,10 +16,19 @@ export const Input = styled.input`
     color: var(--blue-text);
     padding: 0 4.5vw;
     font-size: 0.75rem;
-    margin: 3% 0
+    margin: 3% 0;
 `
 export const ContainerButtons = styled.div`
     display: flex;
     justify-content: flex-end;
     align-items: center;
+`
+export const Button = styled.input`
+    background: var(--dark-pink);
+    color: #FFDAE7;
+    margin-top: 4%;
+    font-size: 0.75rem;
+    height: 2.125rem;
+    width: 24.5vw;
+    border-radius: 12px;
 `
