@@ -27,7 +27,7 @@ export default function Header() {
         <St.ContainerHeader>
             <St.Header>
                 <St.Menu src={navigationIsOpen ? IconClose : IconMenu} onClick={handleOpenMenu} alt="Menu" />
-                <p onClick={goToHome} style={{fontFamily: 'Ink Free'}}>Aniversário da Gi</p>
+                <St.Tittle onClick={goToHome}>Aniversário da Gi</St.Tittle>
                 <St.Cake src={IconCake} alt="Ícone Bolo" />
             </St.Header>
 

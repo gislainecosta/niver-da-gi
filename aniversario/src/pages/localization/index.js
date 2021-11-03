@@ -74,13 +74,10 @@ export default function Localization() {
                     href="https://www.consorciofenix.com.br/horarios/corredor-continente,630"
                     target="_blank"
                 >
-                    Ver horários do Corredor Continente
+                    <span style={{ color: 'var(--dark-pink)'}}>Clique aqui</span> para ver os horários do Corredor Continente
                 </St.Link>
 
             </St.ContainerTittle>
-
-            
-
         </St.ContainerLocal>
     )
 }

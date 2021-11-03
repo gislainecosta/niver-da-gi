@@ -59,6 +59,8 @@ export const IconClock = styled.img`
 `
 export const Link = styled.a`
     font-weight: bold;
-    line-height: 1.875rem;
+    font-size: 0.84rem;
+    line-height: 1.8rem;
     color: var(--blue-text);
+    text-align: justify;
 `
