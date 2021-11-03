@@ -11,7 +11,7 @@ export const ContainerStart = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    padding: 10vh 5vw 6vh 5vw;
+    padding: 4vh 5vw 10vh 5vw;
 `
 export const BlueText = styled.p`
     font-size: 2.25rem;
